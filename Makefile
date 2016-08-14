@@ -3,7 +3,8 @@
 PORTNAME=	nfcutils
 PORTVERSION=	0.1.2
 CATEGORIES=	sysutils
-MASTER_SITES=	ftp://ftp.freebsd.local/pub/ports/
+MASTER_SITES=   https://github.com/terence-deng/nfcutils/releases/download/v${PORTVERSION}/
+EXTRACT_SUFX=   .tar.gz
 
 MAINTAINER=	dengtooling@gmail.com
 COMMENT=	Listing NFC devices and in-field tags or targets
